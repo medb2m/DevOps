@@ -18,7 +18,7 @@ public interface IBlocService {
     void deleteById(long id);
     void deleteAll(List<Bloc> blocs);
     void deleteAll();
-    long compter();
+    long count();
 
     List<Bloc> jibByNomm(String nom);
     /*List<Bloc> getBlocByFoyer(Foyer id);
