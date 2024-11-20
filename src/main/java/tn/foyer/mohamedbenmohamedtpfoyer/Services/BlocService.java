@@ -72,7 +72,7 @@ public class BlocService implements IBlocService {
     }
 
     @Override
-    public long compter() {
+    public long count() {
         return blocRepository.count();
     }
 
